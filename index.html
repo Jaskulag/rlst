@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Skanner Tekstu</title>
+    <title>Aplikacja Skanująca</title>
     <style>
         .card {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             border: 1px solid #ddd;
-            margin: 25px;
-            padding: 25px;
+            margin: 20px;
+            padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .title {
-            font-size: 48px;
-            font-weight: bold;
+            text-align: center;
         }
 
         .scan-button {
@@ -27,36 +20,25 @@
             text-align: center;
             text-decoration: none;
             display: inline-block;
-            font-size: 32px;
-            margin: 4px 2px;
+            font-size: 16px;
+            margin: 10px 2px;
             cursor: pointer;
             border-radius: 5px;
+        }
+
+        .title {
+            font-size: 48px;
+            margin-bottom: 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
 <div class="card">
-    <div class="title">ULD 1</div>
-    <button class="scan-button">SCAN</button>
+    <div class="title">TITLE</div>
+    <button class="scan-button" onclick="location.href='scan.html'">SCAN</button>
 </div>
 
-<div class="card">
-    <div class="title">ULD 2</div>
-    <button class="scan-button">SCAN</button>
-</div>
-
-<div class="card">
-    <div class="title">ULD 3</div>
-    <button class="scan-button">SCAN</button>
-</div>
-
-<div class="card">
-    <div class="title">ULD 4</div>
-    <button class="scan-button">SCAN</button>
-</div>
-
-<div class="card">
-    <div class="title">ULD 5</div>
-    <button class="scan-button">SCAN</button>
-</div
+</body>
+</html>
